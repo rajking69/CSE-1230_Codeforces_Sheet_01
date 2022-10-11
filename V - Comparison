@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main()
+{
+    int A,B;
+    char X;
+    scanf("%d %c %d",&A,&X,&B);
+    if(X==62)
+        if(A>B)
+            printf("Right\n");
+        else
+            printf("Wrong\n");
+    else if(X==60)
+        if(A<B)
+            printf("Right\n");
+        else
+            printf("Wrong\n");
+    else if(X==61)
+        if(A==B)
+            printf("Right\n");
+        else
+            printf("Wrong\n");
+    return 0;
+}
