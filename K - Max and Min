@@ -1,0 +1,52 @@
+#include<stdio.h>
+int main ()
+{
+    long long int A,B,C;
+    scanf("%lld %lld %lld",&A,&B,&C);
+    if (A<=B && A<=C)
+    {
+        {
+            printf("%lld ",A);
+        }
+        {
+            if(B>=C)
+
+                printf("%lld",B);
+
+            else
+                printf("%lld",C);
+        }
+    }
+
+   else if (B<=C&&A>=B)
+    {
+        {
+            printf("%lld ",B);
+        }
+
+        {
+            if(A<=C)
+
+                printf("%lld",C);
+
+            else
+                printf("%lld",A);
+        }
+    }
+   else if (C<=A&&C<=B)
+    {
+        {
+            printf("%lld ",C);
+        }
+
+        {
+            if(A<=B)
+
+                printf("%lld",B);
+
+            else
+                printf("%lld",A);
+        }
+    }
+    return 0;
+}
