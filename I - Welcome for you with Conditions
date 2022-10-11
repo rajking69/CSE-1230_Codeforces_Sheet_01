@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main ()
+{
+    long long int A,B;
+    scanf("%lld%lld",&A,&B);
+    if (A>=B)
+    printf("Yes");
+    else
+        printf("No");
+    return 0;
+}
