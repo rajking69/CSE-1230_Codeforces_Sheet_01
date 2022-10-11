@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    long long int N,years,months,days;
+    scanf("%lld",&N);
+    years=N/365;
+    N=N-(years*365);
+    months=N/30;
+    days=N-(months*30);
+    printf("%lld years\n",years);
+    printf("%lld months\n",months);
+    printf("%lld days",days);
+    return 0;
+}
