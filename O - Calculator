@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main()
+{
+    long long int A,B,result;
+    char S;
+    scanf("%lld %c %lld",&A,&S,&B);
+    if(S==43)
+    {
+        result=A+B;
+        printf("%lld\n",result);
+    }
+    else if(S==45)
+    {
+        result=A-B;
+        printf("%lld\n",result);
+    }
+    else if(S==42)
+    {
+        result=A*B;
+        printf("%lld\n",result);
+    }
+    else if(S==47)
+    {
+        result=A/B;
+        printf("%lld\n",result);
+    }
+    return 0;
+}
