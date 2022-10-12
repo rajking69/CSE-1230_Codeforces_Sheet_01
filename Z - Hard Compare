@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int A,C;
+    long long B,D;
+    double x,y;
+    scanf("%d %lld %d %lld",&A,&B,&C,&D);
+    x=B*log(A);
+
+    y=D*log(C);
+
+    if (x>y)
+        printf("YES\n");
+    else
+        printf("NO\n");
+    return 0;
+}
